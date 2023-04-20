@@ -20,3 +20,14 @@ E:\LẬP TRÌNH\DOCUMENTS\csharp-exercise\bài tập lớn\QLKS\BUS\obj\Debug\BU
 E:\LẬP TRÌNH\DOCUMENTS\csharp-exercise\bài tập lớn\QLKS\BUS\obj\Debug\BUS.csproj.CopyComplete
 E:\LẬP TRÌNH\DOCUMENTS\csharp-exercise\bài tập lớn\QLKS\BUS\obj\Debug\BUS.dll
 E:\LẬP TRÌNH\DOCUMENTS\csharp-exercise\bài tập lớn\QLKS\BUS\obj\Debug\BUS.pdb
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\bin\Debug\BUS.dll
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\bin\Debug\BUS.pdb
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\bin\Debug\DAL.dll
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\bin\Debug\DTO.dll
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\bin\Debug\DAL.pdb
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\bin\Debug\DTO.pdb
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\obj\Debug\BUS.csproj.CopyComplete
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\obj\Debug\BUS.dll
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\BUS\obj\Debug\BUS.pdb

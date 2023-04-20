@@ -16,3 +16,12 @@ E:\LẬP TRÌNH\DOCUMENTS\csharp-exercise\bài tập lớn\QLKS\DAL\obj\Debug\DA
 E:\LẬP TRÌNH\DOCUMENTS\csharp-exercise\bài tập lớn\QLKS\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\LẬP TRÌNH\DOCUMENTS\csharp-exercise\bài tập lớn\QLKS\DAL\obj\Debug\DAL.dll
 E:\LẬP TRÌNH\DOCUMENTS\csharp-exercise\bài tập lớn\QLKS\DAL\obj\Debug\DAL.pdb
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\DAL\bin\Debug\DAL.dll
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\DAL\bin\Debug\DAL.pdb
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\DAL\bin\Debug\DTO.dll
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\DAL\bin\Debug\DTO.pdb
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\DAL\obj\Debug\DAL.dll
+E:\LẬP TRÌNH\PROJECT\QUAN_LY_KHACH_SAN_CSHARP\DAL\obj\Debug\DAL.pdb

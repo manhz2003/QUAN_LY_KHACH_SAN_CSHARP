@@ -101,13 +101,6 @@ namespace QLKS
             Hide();
         }
 
-        private void btnQuanLyDoanhThu_Click(object sender, EventArgs e)
-        {
-            QuanLyDoanhThu quanLyDoanhThu = new QuanLyDoanhThu();
-            quanLyDoanhThu.Show();
-            Hide();
-        }
-
         private void mnuHoTro_Click(object sender, EventArgs e)
         {
             HoTro hoTro = new HoTro();

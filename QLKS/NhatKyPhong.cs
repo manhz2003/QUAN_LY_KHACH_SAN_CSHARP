@@ -85,13 +85,6 @@ namespace QLKS
             Hide();
         }
 
-        private void btnQuanLyDoanhThu_Click(object sender, EventArgs e)
-        {
-            QuanLyDoanhThu quanLyDoanhThu = new QuanLyDoanhThu();
-            quanLyDoanhThu.Show();
-            Hide();
-        }
-
         private void btnXoa_Click(object sender, EventArgs e)
         {
             if (dgvNhatKyPhong.SelectedRows.Count > 0) // Kiểm tra có chọn hàng nào không

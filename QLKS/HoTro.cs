@@ -89,12 +89,5 @@ namespace QLKS
             quanLyLuong.Show();
             Hide();
         }
-
-        private void btnQuanLyDoanhThu_Click(object sender, EventArgs e)
-        {
-            QuanLyDoanhThu quanLyDoanhThu = new QuanLyDoanhThu();
-            quanLyDoanhThu.Show();
-            Hide();
-        }
     }
 }

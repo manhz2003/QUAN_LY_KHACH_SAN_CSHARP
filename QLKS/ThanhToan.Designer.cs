@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnQuanLyDoanhThu = new System.Windows.Forms.PictureBox();
             this.btnQuanLyLuong = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnQuanLyNhanVien = new System.Windows.Forms.PictureBox();
@@ -101,7 +99,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyDoanhThu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).BeginInit();
@@ -122,9 +119,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Snow;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.btnQuanLyDoanhThu);
             this.panel2.Controls.Add(this.btnQuanLyLuong);
-            this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.btnQuanLyNhanVien);
@@ -141,19 +136,6 @@
             this.panel2.Size = new System.Drawing.Size(1116, 138);
             this.panel2.TabIndex = 16;
             // 
-            // btnQuanLyDoanhThu
-            // 
-            this.btnQuanLyDoanhThu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnQuanLyDoanhThu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnQuanLyDoanhThu.Image = global::QLKS.Properties.Resources.image_DoanhThu;
-            this.btnQuanLyDoanhThu.Location = new System.Drawing.Point(951, 10);
-            this.btnQuanLyDoanhThu.Name = "btnQuanLyDoanhThu";
-            this.btnQuanLyDoanhThu.Size = new System.Drawing.Size(128, 97);
-            this.btnQuanLyDoanhThu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnQuanLyDoanhThu.TabIndex = 32;
-            this.btnQuanLyDoanhThu.TabStop = false;
-            this.btnQuanLyDoanhThu.Click += new System.EventHandler(this.btnQuanLyDoanhThu_Click);
-            // 
             // btnQuanLyLuong
             // 
             this.btnQuanLyLuong.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -166,18 +148,6 @@
             this.btnQuanLyLuong.TabIndex = 31;
             this.btnQuanLyLuong.TabStop = false;
             this.btnQuanLyLuong.Click += new System.EventHandler(this.btnQuanLyLuong_Click);
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.Snow;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(955, 109);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(128, 21);
-            this.label7.TabIndex = 26;
-            this.label7.Text = "Doanh thu";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
@@ -895,7 +865,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "                                          ";
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyDoanhThu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).EndInit();
@@ -922,9 +891,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox btnQuanLyDoanhThu;
         private System.Windows.Forms.PictureBox btnQuanLyLuong;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox btnQuanLyNhanVien;

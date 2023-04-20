@@ -85,14 +85,6 @@ namespace QLKS
             quanLyLuong.Show();
             Hide();
         }
-
-        private void btnQuanLyDoanhThu_Click(object sender, EventArgs e)
-        {
-            QuanLyDoanhThu quanLyDoanhThu = new QuanLyDoanhThu();
-            quanLyDoanhThu.Show();
-            Hide();
-        }
-
         private void btnThem_Click(object sender, EventArgs e)
         {
             // Lấy thông tin khách hàng từ giao diện

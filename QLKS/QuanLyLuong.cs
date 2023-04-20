@@ -84,13 +84,6 @@ namespace QLKS
             Hide() ;
         }
 
-        private void btnQuanLyDoanhThu_Click(object sender, EventArgs e)
-        {
-            QuanLyDoanhThu quanLyDoanhThu = new QuanLyDoanhThu();
-            quanLyDoanhThu.Show();
-            Hide();
-        }
-
         private void dgvLuong_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -309,6 +302,11 @@ namespace QLKS
                 MessageBox.Show("Đã xảy ra lỗi trong quá trình tìm kiếm. Vui lòng thử lại sau.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 // Ghi log lỗi vào file hoặc cơ sở dữ liệu để phục vụ việc debug sau này
             }
+        }
+
+        private void btnQuanLyLuong_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
