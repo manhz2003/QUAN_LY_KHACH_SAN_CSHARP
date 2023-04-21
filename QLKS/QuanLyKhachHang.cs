@@ -320,5 +320,17 @@ namespace QLKS
                 }
             }
         }
+
+        private void btnHoTro_Click(object sender, EventArgs e)
+        {
+            HoTro hoTro = new HoTro();
+            hoTro.Show();
+            Hide();
+        }
+
+        private void btnQuanLyKhachHang_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bạn đang ở danh mục khách hàng !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

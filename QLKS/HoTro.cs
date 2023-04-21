@@ -89,5 +89,10 @@ namespace QLKS
             quanLyLuong.Show();
             Hide();
         }
+
+        private void btnHoTro_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bạn đang ở danh mục hỗ trợ !","Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

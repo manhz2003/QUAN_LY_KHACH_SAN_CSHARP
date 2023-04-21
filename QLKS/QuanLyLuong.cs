@@ -306,7 +306,20 @@ namespace QLKS
 
         private void btnQuanLyLuong_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Bạn đang ở danh mục lương !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
 
+        private void btnHoTro_Click(object sender, EventArgs e)
+        {
+            HoTro hoTro = new HoTro();
+            hoTro.Show();
+            Hide();
+        }
+
+        private void btnBaoCao_Click(object sender, EventArgs e)
+        {
+            BaoCaoLuong baoCaoLuong = new BaoCaoLuong();
+            baoCaoLuong.ShowDialog();
         }
     }
 }

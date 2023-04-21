@@ -273,5 +273,23 @@ namespace QLKS
                 // Ghi log lỗi vào file hoặc cơ sở dữ liệu để phục vụ việc debug sau này
             }
         }
+
+        private void btnHoTro_Click(object sender, EventArgs e)
+        {
+            HoTro hoTro = new HoTro();
+            hoTro.Show();
+            Hide();
+        }
+
+        private void btnQuanLyPhong_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bạn đang ở danh mục  nhật ký phòng !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnBaoCao_Click(object sender, EventArgs e)
+        {
+            BaoCaoNhatKy baoCaoNhatKy = new BaoCaoNhatKy();
+            baoCaoNhatKy.ShowDialog();
+        }
     }
 }

@@ -73,7 +73,7 @@ namespace QLKS
 
         private void btnQuanLyNhanVien_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Bạn đang ở danh mục nhân viên !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btnQuanLyLuong_Click(object sender, EventArgs e)
@@ -389,6 +389,13 @@ namespace QLKS
                 MessageBox.Show("Đã xảy ra lỗi trong quá trình tìm kiếm. Vui lòng thử lại sau.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 // Ghi log lỗi vào file hoặc cơ sở dữ liệu để phục vụ việc debug sau này
             }
+        }
+
+        private void btnHoTro_Click(object sender, EventArgs e)
+        {
+            HoTro hoTro = new HoTro();
+            hoTro.Show();
+            Hide();
         }
     }
 }

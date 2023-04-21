@@ -292,5 +292,17 @@ namespace QLKS
             hoTro.Show();
             Hide();
         }
+
+        private void btnHoTro_Click(object sender, EventArgs e)
+        {
+            HoTro hoTro = new HoTro();
+            hoTro.Show();
+            Hide();
+        }
+
+        private void btnQuanLyDatPhong_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bạn đang ở danh mục đặt phòng !", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

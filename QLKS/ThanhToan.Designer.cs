@@ -98,6 +98,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.btnHoTro = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).BeginInit();
@@ -113,12 +115,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Snow;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.btnHoTro);
+            this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.btnQuanLyLuong);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label5);
@@ -852,6 +857,31 @@
             this.label10.TabIndex = 22;
             this.label10.Text = "Chủ tài khoản";
             // 
+            // btnHoTro
+            // 
+            this.btnHoTro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnHoTro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHoTro.Image = global::QLKS.Properties.Resources.icon_HoTro1;
+            this.btnHoTro.Location = new System.Drawing.Point(954, 10);
+            this.btnHoTro.Name = "btnHoTro";
+            this.btnHoTro.Size = new System.Drawing.Size(128, 97);
+            this.btnHoTro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnHoTro.TabIndex = 43;
+            this.btnHoTro.TabStop = false;
+            this.btnHoTro.Click += new System.EventHandler(this.btnHoTro_Click);
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Snow;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.Location = new System.Drawing.Point(954, 110);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(128, 21);
+            this.label7.TabIndex = 42;
+            this.label7.Text = "Hỗ trợ";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // ThanhToan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -883,6 +913,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -960,5 +991,7 @@
         private System.Windows.Forms.DateTimePicker dtpNgayTraPhong;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox btnHoTro;
+        private System.Windows.Forms.Label label7;
     }
 }

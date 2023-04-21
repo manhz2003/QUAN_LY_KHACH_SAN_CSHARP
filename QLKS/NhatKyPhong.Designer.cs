@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnHoTro = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.btnQuanLyLuong = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -47,6 +49,7 @@
             this.mnuHoTro = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuThoat = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnBaoCao = new System.Windows.Forms.Button();
             this.btnXoaTatCa = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
@@ -80,6 +83,7 @@
             this.txtHoTen = new System.Windows.Forms.TextBox();
             this.lblHoTen = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).BeginInit();
@@ -98,6 +102,8 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Snow;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.btnHoTro);
+            this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.btnQuanLyLuong);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label5);
@@ -114,6 +120,31 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1130, 138);
             this.panel2.TabIndex = 25;
+            // 
+            // btnHoTro
+            // 
+            this.btnHoTro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnHoTro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHoTro.Image = global::QLKS.Properties.Resources.icon_HoTro1;
+            this.btnHoTro.Location = new System.Drawing.Point(953, 9);
+            this.btnHoTro.Name = "btnHoTro";
+            this.btnHoTro.Size = new System.Drawing.Size(128, 97);
+            this.btnHoTro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnHoTro.TabIndex = 33;
+            this.btnHoTro.TabStop = false;
+            this.btnHoTro.Click += new System.EventHandler(this.btnHoTro_Click);
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Snow;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.Location = new System.Drawing.Point(953, 109);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(128, 21);
+            this.label7.TabIndex = 32;
+            this.label7.Text = "Hỗ trợ";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnQuanLyLuong
             // 
@@ -251,6 +282,7 @@
             this.btnQuanLyPhong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnQuanLyPhong.TabIndex = 19;
             this.btnQuanLyPhong.TabStop = false;
+            this.btnQuanLyPhong.Click += new System.EventHandler(this.btnQuanLyPhong_Click);
             // 
             // menuStrip1
             // 
@@ -313,6 +345,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnBaoCao);
             this.groupBox1.Controls.Add(this.btnXoaTatCa);
             this.groupBox1.Controls.Add(this.btnXoa);
             this.groupBox1.Controls.Add(this.btnSua);
@@ -325,13 +358,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Chức năng";
             // 
+            // btnBaoCao
+            // 
+            this.btnBaoCao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnBaoCao.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBaoCao.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBaoCao.ForeColor = System.Drawing.Color.White;
+            this.btnBaoCao.Location = new System.Drawing.Point(37, 220);
+            this.btnBaoCao.Name = "btnBaoCao";
+            this.btnBaoCao.Size = new System.Drawing.Size(129, 40);
+            this.btnBaoCao.TabIndex = 4;
+            this.btnBaoCao.Text = "Báo cáo";
+            this.btnBaoCao.UseVisualStyleBackColor = false;
+            this.btnBaoCao.Click += new System.EventHandler(this.btnBaoCao_Click);
+            // 
             // btnXoaTatCa
             // 
             this.btnXoaTatCa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnXoaTatCa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoaTatCa.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaTatCa.ForeColor = System.Drawing.Color.White;
-            this.btnXoaTatCa.Location = new System.Drawing.Point(37, 108);
+            this.btnXoaTatCa.Location = new System.Drawing.Point(37, 82);
             this.btnXoaTatCa.Name = "btnXoaTatCa";
             this.btnXoaTatCa.Size = new System.Drawing.Size(129, 40);
             this.btnXoaTatCa.TabIndex = 1;
@@ -345,7 +392,7 @@
             this.btnXoa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(37, 200);
+            this.btnXoa.Location = new System.Drawing.Point(37, 174);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(129, 40);
             this.btnXoa.TabIndex = 3;
@@ -359,7 +406,7 @@
             this.btnSua.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.White;
-            this.btnSua.Location = new System.Drawing.Point(37, 154);
+            this.btnSua.Location = new System.Drawing.Point(37, 128);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(129, 40);
             this.btnSua.TabIndex = 2;
@@ -373,7 +420,7 @@
             this.btnXem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXem.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXem.ForeColor = System.Drawing.Color.White;
-            this.btnXem.Location = new System.Drawing.Point(37, 66);
+            this.btnXem.Location = new System.Drawing.Point(37, 40);
             this.btnXem.Name = "btnXem";
             this.btnXem.Size = new System.Drawing.Size(129, 36);
             this.btnXem.TabIndex = 0;
@@ -675,6 +722,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý phòng";
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).EndInit();
@@ -747,5 +795,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayTraPhong;
         private System.Windows.Forms.DataGridViewTextBoxColumn GiaPhong;
         private System.Windows.Forms.Button btnXoaTatCa;
+        private System.Windows.Forms.Button btnBaoCao;
+        private System.Windows.Forms.PictureBox btnHoTro;
+        private System.Windows.Forms.Label label7;
     }
 }

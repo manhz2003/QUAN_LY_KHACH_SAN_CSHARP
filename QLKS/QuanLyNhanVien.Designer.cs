@@ -95,6 +95,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnQuanLyPhong = new System.Windows.Forms.PictureBox();
+            this.btnHoTro = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -111,6 +113,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyDatPhong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyPhong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -169,7 +172,7 @@
             // bảnQuyềnToolStripMenuItem
             // 
             this.bảnQuyềnToolStripMenuItem.Name = "bảnQuyềnToolStripMenuItem";
-            this.bảnQuyềnToolStripMenuItem.Size = new System.Drawing.Size(71, 6);
+            this.bảnQuyềnToolStripMenuItem.Size = new System.Drawing.Size(221, 6);
             // 
             // mnuThoat
             // 
@@ -703,6 +706,8 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Snow;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.btnHoTro);
+            this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.btnQuanLyLuong);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label5);
@@ -859,6 +864,31 @@
             this.btnQuanLyPhong.TabStop = false;
             this.btnQuanLyPhong.Click += new System.EventHandler(this.btnQuanLyPhong_Click);
             // 
+            // btnHoTro
+            // 
+            this.btnHoTro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnHoTro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHoTro.Image = global::QLKS.Properties.Resources.icon_HoTro1;
+            this.btnHoTro.Location = new System.Drawing.Point(952, 9);
+            this.btnHoTro.Name = "btnHoTro";
+            this.btnHoTro.Size = new System.Drawing.Size(128, 97);
+            this.btnHoTro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnHoTro.TabIndex = 37;
+            this.btnHoTro.TabStop = false;
+            this.btnHoTro.Click += new System.EventHandler(this.btnHoTro_Click);
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Snow;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.Location = new System.Drawing.Point(952, 109);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(128, 21);
+            this.label7.TabIndex = 36;
+            this.label7.Text = "Hỗ trợ";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // QuanLyNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -893,6 +923,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyDatPhong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyPhong)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -967,5 +998,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NgayCong;
         private System.Windows.Forms.DataGridViewTextBoxColumn DanhGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn NV_Luong;
+        private System.Windows.Forms.PictureBox btnHoTro;
+        private System.Windows.Forms.Label label7;
     }
 }

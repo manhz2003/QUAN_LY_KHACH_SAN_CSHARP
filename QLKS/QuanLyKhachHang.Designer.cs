@@ -41,6 +41,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnHoTro = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.btnQuanLyLuong = new System.Windows.Forms.PictureBox();
             this.btnQuanLyNhanVien = new System.Windows.Forms.PictureBox();
             this.btnQuanLyKhachHang = new System.Windows.Forms.PictureBox();
@@ -85,6 +87,7 @@
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).BeginInit();
@@ -232,6 +235,8 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Snow;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.btnHoTro);
+            this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.btnQuanLyLuong);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label5);
@@ -248,6 +253,31 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1126, 138);
             this.panel2.TabIndex = 14;
+            // 
+            // btnHoTro
+            // 
+            this.btnHoTro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnHoTro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHoTro.Image = global::QLKS.Properties.Resources.icon_HoTro1;
+            this.btnHoTro.Location = new System.Drawing.Point(951, 10);
+            this.btnHoTro.Name = "btnHoTro";
+            this.btnHoTro.Size = new System.Drawing.Size(128, 97);
+            this.btnHoTro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnHoTro.TabIndex = 39;
+            this.btnHoTro.TabStop = false;
+            this.btnHoTro.Click += new System.EventHandler(this.btnHoTro_Click);
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Snow;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.Location = new System.Drawing.Point(951, 110);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(128, 21);
+            this.label7.TabIndex = 38;
+            this.label7.Text = "Hỗ trợ";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnQuanLyLuong
             // 
@@ -286,6 +316,7 @@
             this.btnQuanLyKhachHang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnQuanLyKhachHang.TabIndex = 29;
             this.btnQuanLyKhachHang.TabStop = false;
+            this.btnQuanLyKhachHang.Click += new System.EventHandler(this.btnQuanLyKhachHang_Click);
             // 
             // btnQuanLyDatPhong
             // 
@@ -734,6 +765,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).EndInit();
@@ -812,5 +844,7 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox txtTimKiem;
+        private System.Windows.Forms.PictureBox btnHoTro;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -168,5 +168,12 @@ namespace QLKS
             }
 
         }
+
+        private void btnHoTro_Click(object sender, EventArgs e)
+        {
+            HoTro hoTro = new HoTro();
+            hoTro.Show();
+            Hide();
         }
+    }
 }

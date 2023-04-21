@@ -121,6 +121,9 @@
   <data name="icon-xoatatca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\icon-xoatatca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icon-xoatatca1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\icon-xoatatca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon-DangNhap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\icon-DangNhap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,8 +139,8 @@
   <data name="image-addd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\image-addd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image-room" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\image-room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon-HoTro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\icon-HoTro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="3004703" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\3004703.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,20 +175,20 @@
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images-DatPhong" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\images-DatPhong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image-hotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\image-hotel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-them" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\icon-them.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\images-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image-DoanhThu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\image-DoanhThu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-QuanLyNhanVien" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\icon-QuanLyNhanVien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-thoat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\icon-thoat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-them1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\icon-them.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-DangKy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\icon-DangKy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +217,10 @@
   <data name="image-4person" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\image-4person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-them1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="icon-pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\icon-pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-them" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\icon-them.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image-qr" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -232,8 +238,8 @@
   <data name="image-Luong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\image-Luong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-openPass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icons\icon-openPass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\images-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-DangNhap1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\icon-DangNhap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,8 +277,8 @@
   <data name="icon-QuanLyLuong" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\icon-QuanLyLuong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icons\icon-pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon-openPass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\icon-openPass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image-qlpp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\image-qlpp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,11 +286,8 @@
   <data name="discover-credit-card-payment-logo-icon-21635330062fdwm3er7oq" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\discover-credit-card-payment-logo-icon-21635330062fdwm3er7oq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image-DoanhThu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\image-DoanhThu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images-homes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\images-homes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image-room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\image-room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-team" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\icon-team.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -301,13 +304,13 @@
   <data name="icon-check" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\icon-check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image-hotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\image-hotel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images-DatPhong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\images-DatPhong.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon-HoTro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="images-homes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\images-homes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-HoTro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icons\icon-HoTro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-xoatatca1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icons\icon-xoatatca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
