@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnHoTro = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.btnQuanLyLuong = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -87,6 +89,7 @@
             this.cboQuocGia = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -98,9 +101,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.btnHoTro = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).BeginInit();
@@ -115,7 +117,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -140,6 +141,31 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1116, 138);
             this.panel2.TabIndex = 16;
+            // 
+            // btnHoTro
+            // 
+            this.btnHoTro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnHoTro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHoTro.Image = global::QLKS.Properties.Resources.icon_HoTro1;
+            this.btnHoTro.Location = new System.Drawing.Point(954, 10);
+            this.btnHoTro.Name = "btnHoTro";
+            this.btnHoTro.Size = new System.Drawing.Size(128, 97);
+            this.btnHoTro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnHoTro.TabIndex = 43;
+            this.btnHoTro.TabStop = false;
+            this.btnHoTro.Click += new System.EventHandler(this.btnHoTro_Click);
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Snow;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.Location = new System.Drawing.Point(954, 110);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(128, 21);
+            this.label7.TabIndex = 42;
+            this.label7.Text = "Hỗ trợ";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnQuanLyLuong
             // 
@@ -729,6 +755,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.label33);
             this.groupBox2.Controls.Add(this.label19);
             this.groupBox2.Controls.Add(this.label18);
             this.groupBox2.Controls.Add(this.label17);
@@ -750,17 +777,25 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label8.Location = new System.Drawing.Point(24, 217);
+            this.label8.Location = new System.Drawing.Point(204, 39);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(513, 16);
-            this.label8.TabIndex = 45;
-            this.label8.Text = "Thanh toán bằng hình thức chuyển khoản hệ thống sẽ xác nhận sau 5 phút!";
+            this.label8.Size = new System.Drawing.Size(157, 16);
+            this.label8.TabIndex = 32;
+            this.label8.Text = "LUONG THI LAN ANH";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(22, 94);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(94, 16);
+            this.label33.TabIndex = 31;
+            this.label33.Text = "tên ví điện tử";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(206, 108);
+            this.label19.Location = new System.Drawing.Point(204, 123);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(87, 16);
             this.label19.TabIndex = 30;
@@ -769,7 +804,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(24, 108);
+            this.label18.Location = new System.Drawing.Point(22, 123);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(67, 16);
             this.label18.TabIndex = 29;
@@ -778,7 +813,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(24, 183);
+            this.label17.Location = new System.Drawing.Point(22, 207);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(270, 16);
             this.label17.TabIndex = 28;
@@ -796,7 +831,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(206, 142);
+            this.label16.Location = new System.Drawing.Point(204, 157);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(185, 16);
             this.label16.TabIndex = 27;
@@ -805,7 +840,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(24, 142);
+            this.label15.Location = new System.Drawing.Point(22, 157);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(151, 16);
             this.label15.TabIndex = 26;
@@ -824,7 +859,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(206, 72);
+            this.label14.Location = new System.Drawing.Point(204, 67);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(103, 16);
             this.label14.TabIndex = 25;
@@ -833,7 +868,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(24, 72);
+            this.label13.Location = new System.Drawing.Point(22, 67);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(63, 16);
             this.label13.TabIndex = 24;
@@ -842,7 +877,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(204, 39);
+            this.label12.Location = new System.Drawing.Point(204, 94);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(154, 16);
             this.label12.TabIndex = 23;
@@ -857,31 +892,6 @@
             this.label10.TabIndex = 22;
             this.label10.Text = "Chủ tài khoản";
             // 
-            // btnHoTro
-            // 
-            this.btnHoTro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnHoTro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHoTro.Image = global::QLKS.Properties.Resources.icon_HoTro1;
-            this.btnHoTro.Location = new System.Drawing.Point(954, 10);
-            this.btnHoTro.Name = "btnHoTro";
-            this.btnHoTro.Size = new System.Drawing.Size(128, 97);
-            this.btnHoTro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnHoTro.TabIndex = 43;
-            this.btnHoTro.TabStop = false;
-            this.btnHoTro.Click += new System.EventHandler(this.btnHoTro_Click);
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.Snow;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(954, 110);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(128, 21);
-            this.label7.TabIndex = 42;
-            this.label7.Text = "Hỗ trợ";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // ThanhToan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -893,8 +903,9 @@
             this.Controls.Add(this.menuStrip1);
             this.Name = "ThanhToan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "                                          ";
+            this.Text = "Thanh toán đặt phòng                             ";
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).EndInit();
@@ -913,7 +924,6 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -990,8 +1000,9 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.DateTimePicker dtpNgayTraPhong;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox btnHoTro;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label33;
     }
 }

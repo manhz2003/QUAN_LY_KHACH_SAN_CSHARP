@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnHoTro = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.btnQuanLyLuong = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -70,9 +72,8 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.btnHoTro = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).BeginInit();
@@ -81,7 +82,6 @@
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -106,6 +106,31 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1130, 138);
             this.panel2.TabIndex = 27;
+            // 
+            // btnHoTro
+            // 
+            this.btnHoTro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.btnHoTro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHoTro.Image = global::QLKS.Properties.Resources.icon_HoTro1;
+            this.btnHoTro.Location = new System.Drawing.Point(951, 9);
+            this.btnHoTro.Name = "btnHoTro";
+            this.btnHoTro.Size = new System.Drawing.Size(128, 97);
+            this.btnHoTro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnHoTro.TabIndex = 43;
+            this.btnHoTro.TabStop = false;
+            this.btnHoTro.Click += new System.EventHandler(this.btnHoTro_Click);
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Snow;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label7.Location = new System.Drawing.Point(951, 109);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(128, 21);
+            this.label7.TabIndex = 42;
+            this.label7.Text = "Hỗ trợ";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnQuanLyLuong
             // 
@@ -381,6 +406,7 @@
             this.btnGui.TabIndex = 9;
             this.btnGui.Text = "Gửi";
             this.btnGui.UseVisualStyleBackColor = false;
+            this.btnGui.Click += new System.EventHandler(this.btnGui_Click);
             // 
             // label14
             // 
@@ -559,31 +585,6 @@
             this.label24.TabIndex = 2;
             this.label24.Text = "Ứng dụng được tạo ra với mục đích học tập không nhằm mục đích thương mại !";
             // 
-            // btnHoTro
-            // 
-            this.btnHoTro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.btnHoTro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHoTro.Image = global::QLKS.Properties.Resources.icon_HoTro1;
-            this.btnHoTro.Location = new System.Drawing.Point(951, 9);
-            this.btnHoTro.Name = "btnHoTro";
-            this.btnHoTro.Size = new System.Drawing.Size(128, 97);
-            this.btnHoTro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnHoTro.TabIndex = 43;
-            this.btnHoTro.TabStop = false;
-            this.btnHoTro.Click += new System.EventHandler(this.btnHoTro_Click);
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.Snow;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(951, 109);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(128, 21);
-            this.label7.TabIndex = 42;
-            this.label7.Text = "Hỗ trợ";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // HoTro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -598,6 +599,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hỗ trợ";
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyLuong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyNhanVien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnQuanLyKhachHang)).EndInit();
@@ -609,7 +611,6 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnHoTro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

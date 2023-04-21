@@ -94,5 +94,29 @@ namespace QLKS
         {
             MessageBox.Show("Bạn đang ở danh mục hỗ trợ !","Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void btnGui_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtPhanHoi.Text) && !radHaiLong.Checked && !radChuaTot.Checked && !radRatTot.Checked)
+            {
+                MessageBox.Show("Bạn chưa đánh giá hoặc phản hồi.");
+                return;
+            }
+
+            if (radHaiLong.Checked)
+            {
+                MessageBox.Show("Cảm ơn quý khách đã hài lòng với dịch vụ!");
+            }
+            else if (radChuaTot.Checked)
+            {
+                MessageBox.Show("Xin lỗi quý khách, chúng tôi sẽ cố gắng khắc phục.");
+            }
+            else if (radRatTot.Checked)
+            {
+                MessageBox.Show("Cảm hơn quý khách rất nhiều!");
+            }
+
+
+        }
     }
 }
